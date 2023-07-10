@@ -58,7 +58,7 @@
 .navbar .pages.currentoption,
 .contact-info .info:hover,
 .contact-info .info:focus {
-    color:var(--oceancolor);
+    color: var(--iriscolor);
 }
 
 body {
@@ -66,6 +66,8 @@ body {
     font-style: normal;
     font-size: 16px;
     line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.32px;
 }
    
 .contact-info .info{
@@ -114,14 +116,15 @@ body {
 }
 
 .titlelist{
-    font-weight: 800;
-    font-size: 14px;
-    line-height: 1.5;
-    color: var(--slatecolor);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: var(--navyblue)
 }
 
 .sectiontitle {
-    color: var(--navyblue);
+    color: var(--slatecolor);
     font-size: 36px;
     font-weight: 900;
     line-height: 1.5;
